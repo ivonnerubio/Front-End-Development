@@ -16,7 +16,10 @@
  *= require_self
  */
  
- .body{font-family: Calibri, sans-serif;}
+ .body{
+  font-family: Calibri, sans-serif;
+  
+ }
  
 .navbar-vertical {
   display: none;
@@ -60,6 +63,67 @@
   left: 100px;
 }
 
+
+
+
+#logo{
+  width: 60px;
+  border-radius: 50%;
+  position: relative;
+  top: -10px;
+  left: 10px;
+}
+
+
+
+
+
+
+
+
+.overlay { 
+  height: 100%; 
+  width: 100%; 
+  display: none; 
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  background-color: white; 
+  } 
+  
+.overlay-content { 
+  position: relative; 
+  top: 25%;
+  width: 100%; 
+  text-align: center; 
+} 
+  
+.overlay a { 
+  padding: 10px; 
+  text-decoration: none; 
+  font-size: 40px; 
+  color: black; 
+  display: block; 
+  transition: 0.3s; 
+} 
+  
+.overlay a:hover, .overlay a:focus { 
+  color: black; 
+} 
+  
+.overlay .closebtn { 
+  position: absolute; 
+  top: 0px; 
+  right: 80px;
+  font-size: 40px; 
+} 
+        
+        
+        
+#navbar-icon{
+  position: relative;
+  right: -230px;
+}        
 
 
 

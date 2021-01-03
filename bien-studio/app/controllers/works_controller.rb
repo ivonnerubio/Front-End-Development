@@ -1,4 +1,35 @@
 class WorksController < ApplicationController
+  
+  # GET /altima
+  def altima
+  end
+  
+  # GET /beautypos
+  def beautypos
+  end
+  
+  # GET /flowxo
+  def flowxo
+  end
+  
+  # GET /novalty
+  def novalty
+  end
+  
+  # GET /talentlyft
+  def talentlyft
+  end
+  
+  # GET /testhero
+  def testhero
+  end
+  
+  # GET /upbore
+  def upbore
+  end
+  
+  
+  
   before_action :set_work, only: [:show, :edit, :update, :destroy]
 
   # GET /works
