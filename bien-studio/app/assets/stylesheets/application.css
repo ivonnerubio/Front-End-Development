@@ -131,7 +131,13 @@
 
 
 @media only screen and (min-width: 768px) {
-  
+          
+  #navbar-icon{
+    position: relative;
+    right: -600px;
+  }      
+ 
+ 
 }
 
 
