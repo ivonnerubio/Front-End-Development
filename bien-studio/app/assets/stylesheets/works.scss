@@ -36,7 +36,10 @@
   letter-spacing: 1.5px;
 }
 
-
+.project-text a:hover {
+  color: black;
+  background-color: transparent;
+}
 
 .project-text p{
   margin-top: 13px;

@@ -98,6 +98,7 @@
   text-align: center; 
 } 
   
+
 .overlay a { 
   padding: 10px; 
   text-decoration: none; 
@@ -109,20 +110,22 @@
   
 .overlay a:hover, .overlay a:focus { 
   color: black; 
+  background-color: transparent;
 } 
   
 .overlay .closebtn { 
   position: absolute; 
-  top: 0px; 
-  right: 80px;
+  top: -2px; 
+  right: 50px;
   font-size: 40px; 
+  text-decoration: none;
 } 
         
         
         
 #navbar-icon{
   position: relative;
-  right: -230px;
+  right: -260px;
 }        
 
 
